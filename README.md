@@ -10,10 +10,7 @@ We intend to make use of a cloud service for the project either AWS or Jetstream
 
 ![Visualization_of_the_system](https://github.com/subhadramishra1994/ECC_Project_2024/assets/25883716/cc7100a2-31d6-4dfb-9a6e-2d7c68c8873f)
 
-
-
-
-
+More details on the setup can be found [here](https://docs.google.com/document/d/1ahqIBX79Bf210f6q3yIH15cdMsiceaekGw57_SRHdCc/edit?usp=sharing)
 ## **Integration of Dask**
 
 We aim to integrate Dask and XGBoost for hyperparameter optimization and regression tasks. Initially, we set up a local Dask cluster to utilize distributed computing capabilities. Synthetic data was generated and transformed into Dask arrays for compatibility with Dask's distributed computing framework. We split the data into training and testing sets using Dask's data-splitting functionality. To optimize hyperparameters, we defined an objective function utilizing Dask's distributed computing features for model training and prediction. Optuna facilitated hyperparameter optimization, with a study object created to minimize the objective function. Our experimentation resulted in the identification of optimal hyperparameters and their corresponding root mean square error (RMSE) value. Finally, we closed the Dask client and cluster to release computational resources, ensuring efficient parallelization and distributed computing throughout the project for handling extensive datasets and optimizing computational performance.
