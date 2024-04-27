@@ -4,11 +4,9 @@ In this project, we are building a platform designed to be dynamically scalable 
 
 ## **Setup**
 
-We intend to make use of a cloud service for the project either AWS or Jetstream. But before we deploy it on either of the services we intend to first develop and test on our local machines. How we plan on achieving this is by using a tool called minikube that helps setup a local kubernetes cluster with a configuration choice of our own. The next step after this would be to install the dask gateway and jupyterhub. Post that we can containerize the work done in JupyterHub, which can then be directly deployed on cloud without any need to worry about dependencies or installations that would increase our time spent on the cloud services thereby increasing the cost of using the cloud service. Below is a visualization of the what the whole setup looks like:
+We intend to make use of a cloud service for the project either AWS or Jetstream. But before we deploy it on either of the services we intend to first develop and test on our local machines. How we plan on achieving this is by using a tool called minikube that helps setup a local kubernetes cluster with a configuration choice of our own. The next step after this would be to install the dask gateway and jupyterhub. Post that we can containerize the work done in JupyterHub, which can then be directly deployed on cloud without any need to worry about dependencies or installations that would increase our time spent on the cloud services thereby increasing the cost of using the cloud service. Below is a visualization of what the notebook instance looks like:
 
-
-
-![Visualization_of_the_system](https://github.com/subhadramishra1994/ECC_Project_2024/assets/25883716/cc7100a2-31d6-4dfb-9a6e-2d7c68c8873f)
+![Visualization of the notebook instance](https://github.com/Subhadra-Mishra-iub/ECC_Project_2024/assets/53865153/2e1f1da0-1859-4523-be18-5b4736947848)
 
 More details on the setup can be found [here](https://docs.google.com/document/d/1ahqIBX79Bf210f6q3yIH15cdMsiceaekGw57_SRHdCc/edit?usp=sharing)
 ## **Integration of Dask**
